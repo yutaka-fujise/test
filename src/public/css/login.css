@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: "Yu Gothic", sans-serif;
+    background-color: #e8dfd7;
+}
+
+/* --- HEADER --- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 40px;
+    background: #f7f4f1;
+}
+
+.header-title {
+    font-size: 32px;
+    color: #7b6755;
+    font-weight: bold;
+}
+
+.register-btn {
+    color: #7b6755;
+    border: 1px solid #d4c8bd;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* --- PAGE TITLE --- */
+.login-title {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 26px;
+    color: #7b6755;
+}
+
+/* --- LOGIN FORM --- */
+.login-container {
+    width: 450px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 8px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    color: #7b6755;
+    font-size: 16px;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 1px solid #e7e2df;
+    background: #f0efee;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #7b6755;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
