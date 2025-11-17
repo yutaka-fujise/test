@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Hiragino Sans", "メイリオ", sans-serif;
+    background-color: #fff;
+    color: #4b3f36;
+}
+
+.header {
+    font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+    background: #fff;
+    color: #5a4b43;
+    margin: 0;
+    padding: 0;
+}
+
+.site-title {
+    text-align: center;
+    font-size: 34px;
+    margin: 40px 0 20px;
+    letter-spacing: 2px;
+}
+
+.contact-section {
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto 80px;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    background: #faf9f8;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.required {
+    color: red;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0dcd7;
+    border-radius: 4px;
+    background: #fdfdfd;
+    font-size: 14px;
+}
+
+input.half {
+    width: 48%;
+}
+
+.name-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 4%;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+.radio-group label {
+    display: flex;
+    margin-right: 20px;
+}
+
+.tel-wrapper input {
+    width: 22%;
+    text-align: center;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.form-submit {
+    text-align: center;
+    margin-top: 40px;
+}
+
+button {
+    background: #7b6a5c;
+    color: #fff;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: center;
+    align-items: auto;
+    gap: 50px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.gender-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.gender-item input[type="checkbox"] {
+    appearance: none;
+    /* デフォルトのチェックを消す */
+    width: 18px;
+    height: 18px;
+    border: 2px solid #8f8178;
+    /* 枠の色 */
+    border-radius: 50%;
+    /* 丸くする（ラジオ風） */
+    margin-right: 6px;
+    position: relative;
+    cursor: pointer;
+}
+
+/* チェックされたときの中の丸 */
+.gender-item input[type="checkbox"]:checked::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #8f8178;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+}
+
+.error {
+    color: #d95c5c;
+    font-size: 14px;
+    margin-top: 5px;
+}

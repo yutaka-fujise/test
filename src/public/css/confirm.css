@@ -1,0 +1,95 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #6a4e3c;
+}
+
+.header h1 {
+    text-align: center;
+    padding: 40px 0 10px;
+    font-size: 40px;
+    color: #6a4e3c;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px 60px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+    color: #6a4e3c;
+}
+
+/* ======= 確認テーブル ======= */
+.confirm-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+.confirm-table th {
+    width: 30%;
+    padding: 15px 10px;
+    text-align: left;
+    background: #f4ece7;
+    color: #6a4e3c;
+    border-bottom: 1px solid #e5dfdb;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.confirm-table td {
+    padding: 15px 10px;
+    background: #fff;
+    border-bottom: 1px solid #e5dfdb;
+    font-size: 16px;
+    color: #6a4e3c;
+}
+
+/* ======= ボタンエリア ======= */
+.buttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* 送信ボタン */
+.submit-btn {
+    padding: 12px 35px;
+    font-size: 18px;
+    background: #a68b74;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 50px;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #8c715c;
+}
+
+/* 戻るボタン */
+.back-btn {
+    padding: 12px 35px;
+    font-size: 18px;
+    background: #ddd2c9;
+    color: #6a4e3c;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #c7b7ac;
+}
